@@ -28,9 +28,6 @@ body {
   --black-50: #18191f;
   --title-color: #3a3a3a;
 }
-section {
-  padding: 3rem 0;
-}
 .primary_btn {
   background: var(--primary-color);
   padding: 14px 28px;
@@ -148,6 +145,9 @@ ul > li,
   .banner_content .text {
     width: 70%;
     margin: 0rem auto 1.6rem auto;
+  }
+  section {
+    padding: 3rem 0;
   }
 }
 /* Responsive banner area for laptop devices  */
